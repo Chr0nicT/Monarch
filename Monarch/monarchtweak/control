@@ -1,0 +1,9 @@
+Package: com.yourcompany.monarchtweak
+Name: MonarchTweak
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Chr0nic
+Author: Chr0nic
+Section: Tweaks

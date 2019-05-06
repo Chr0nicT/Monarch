@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B85F1765227FDC4800AC0D93 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = B85F1761227FDC4800AC0D93 /* Makefile */; };
+		B85F1766227FDC4800AC0D93 /* control in Resources */ = {isa = PBXBuildFile; fileRef = B85F1762227FDC4800AC0D93 /* control */; };
+		B85F1767227FDC4800AC0D93 /* Tweak.xm in Resources */ = {isa = PBXBuildFile; fileRef = B85F1763227FDC4800AC0D93 /* Tweak.xm */; };
+		B85F1768227FDC4900AC0D93 /* MonarchTweak.plist in Resources */ = {isa = PBXBuildFile; fileRef = B85F1764227FDC4800AC0D93 /* MonarchTweak.plist */; };
+		B8CC78E3227F8F8400396D6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC78E2227F8F8400396D6E /* AppDelegate.m */; };
+		B8CC78E6227F8F8400396D6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC78E5227F8F8400396D6E /* ViewController.m */; };
+		B8CC78E9227F8F8400396D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CC78E7227F8F8400396D6E /* Main.storyboard */; };
+		B8CC78EB227F8F8500396D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8CC78EA227F8F8500396D6E /* Assets.xcassets */; };
+		B8CC78EE227F8F8500396D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8CC78EC227F8F8500396D6E /* LaunchScreen.storyboard */; };
+		B8CC78F1227F8F8500396D6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CC78F0227F8F8500396D6E /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B85F1761227FDC4800AC0D93 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		B85F1762227FDC4800AC0D93 /* control */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		B85F1763227FDC4800AC0D93 /* Tweak.xm */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.objc; fileEncoding = 4; path = Tweak.xm; sourceTree = "<group>"; };
+		B85F1764227FDC4800AC0D93 /* MonarchTweak.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = MonarchTweak.plist; sourceTree = "<group>"; };
+		B8CC78DE227F8F8400396D6E /* Monarch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Monarch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8CC78E1227F8F8400396D6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B8CC78E2227F8F8400396D6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B8CC78E4227F8F8400396D6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B8CC78E5227F8F8400396D6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B8CC78E8227F8F8400396D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8CC78EA227F8F8500396D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8CC78ED227F8F8500396D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8CC78EF227F8F8500396D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8CC78F0227F8F8500396D6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8CC78DB227F8F8400396D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8330B95227F968F002378F6 /* monarchtweak */ = {
+			isa = PBXGroup;
+			children = (
+				B85F1762227FDC4800AC0D93 /* control */,
+				B85F1761227FDC4800AC0D93 /* Makefile */,
+				B85F1764227FDC4800AC0D93 /* MonarchTweak.plist */,
+				B85F1763227FDC4800AC0D93 /* Tweak.xm */,
+			);
+			path = monarchtweak;
+			sourceTree = "<group>";
+		};
+		B8CC78D5227F8F8400396D6E = {
+			isa = PBXGroup;
+			children = (
+				B8CC78E0227F8F8400396D6E /* Monarch */,
+				B8CC78DF227F8F8400396D6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8CC78DF227F8F8400396D6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8CC78DE227F8F8400396D6E /* Monarch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8CC78E0227F8F8400396D6E /* Monarch */ = {
+			isa = PBXGroup;
+			children = (
+				B8330B95227F968F002378F6 /* monarchtweak */,
+				B8CC78E1227F8F8400396D6E /* AppDelegate.h */,
+				B8CC78E2227F8F8400396D6E /* AppDelegate.m */,
+				B8CC78E4227F8F8400396D6E /* ViewController.h */,
+				B8CC78E5227F8F8400396D6E /* ViewController.m */,
+				B8CC78E7227F8F8400396D6E /* Main.storyboard */,
+				B8CC78EA227F8F8500396D6E /* Assets.xcassets */,
+				B8CC78EC227F8F8500396D6E /* LaunchScreen.storyboard */,
+				B8CC78EF227F8F8500396D6E /* Info.plist */,
+				B8CC78F0227F8F8500396D6E /* main.m */,
+			);
+			path = Monarch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8CC78DD227F8F8400396D6E /* Monarch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8CC78F4227F8F8500396D6E /* Build configuration list for PBXNativeTarget "Monarch" */;
+			buildPhases = (
+				B8CC78FA227F90EF00396D6E /* ShellScript */,
+				B8CC78DA227F8F8400396D6E /* Sources */,
+				B8CC78DB227F8F8400396D6E /* Frameworks */,
+				B8CC78DC227F8F8400396D6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Monarch;
+			productName = Monarch;
+			productReference = B8CC78DE227F8F8400396D6E /* Monarch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8CC78D6227F8F8400396D6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Tanay Findley";
+				TargetAttributes = {
+					B8CC78DD227F8F8400396D6E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = B8CC78D9227F8F8400396D6E /* Build configuration list for PBXProject "Monarch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8CC78D5227F8F8400396D6E;
+			productRefGroup = B8CC78DF227F8F8400396D6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8CC78DD227F8F8400396D6E /* Monarch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8CC78DC227F8F8400396D6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85F1766227FDC4800AC0D93 /* control in Resources */,
+				B8CC78EE227F8F8500396D6E /* LaunchScreen.storyboard in Resources */,
+				B85F1768227FDC4900AC0D93 /* MonarchTweak.plist in Resources */,
+				B85F1767227FDC4800AC0D93 /* Tweak.xm in Resources */,
+				B8CC78EB227F8F8500396D6E /* Assets.xcassets in Resources */,
+				B8CC78E9227F8F8400396D6E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8CC78FA227F90EF00396D6E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\necho \"[Monarch] Making/Installing Tweak...\"\nosascript Monarch/monarchtweak/Monarch.scpt $(pwd) 192.168.1.140\n\n\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8CC78DA227F8F8400396D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8CC78E6227F8F8400396D6E /* ViewController.m in Sources */,
+				B8CC78F1227F8F8500396D6E /* main.m in Sources */,
+				B85F1765227FDC4800AC0D93 /* Makefile in Sources */,
+				B8CC78E3227F8F8400396D6E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8CC78E7227F8F8400396D6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8CC78E8227F8F8400396D6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8CC78EC227F8F8500396D6E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8CC78ED227F8F8500396D6E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8CC78F2227F8F8500396D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B8CC78F3227F8F8500396D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8CC78F5227F8F8500396D6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95MPSDK9P6;
+				INFOPLIST_FILE = Monarch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.chr0nic.Monarch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64e arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		B8CC78F6227F8F8500396D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95MPSDK9P6;
+				INFOPLIST_FILE = Monarch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.chr0nic.Monarch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64e arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8CC78D9227F8F8400396D6E /* Build configuration list for PBXProject "Monarch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CC78F2227F8F8500396D6E /* Debug */,
+				B8CC78F3227F8F8500396D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8CC78F4227F8F8500396D6E /* Build configuration list for PBXNativeTarget "Monarch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8CC78F5227F8F8500396D6E /* Debug */,
+				B8CC78F6227F8F8500396D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8CC78D6227F8F8400396D6E /* Project object */;
+}
